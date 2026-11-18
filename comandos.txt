@@ -1,0 +1,10 @@
+# Ambiente e comandos executados
+# Ambiente: Linux x86_64, Python 3.12.3, sem CUDA disponível; Ultralytics 8.4.201, PyTorch 2.15.0+cu132, TorchVision 0.29.2+cu132.
+
+python3 -m pip install -r requirements.txt
+python3 baixar_dataset.py       # primeira execução baixa cerca de 1,4 GB do dataset original
+python3 preparar_dataset.py     # gera dataset com 50 treino, 10 validação, 5 holdout
+python3 treinar_validar.py     # treina YOLOv8n por 20 épocas e calcula métricas de validação
+python3 avaliar_teste.py       # calcula métricas nas cinco imagens reservadas
+python3 detectar_ineditas.py   # grava imagens, CSV e JSON das detecções
+python3 gerar_relatorio.py     # gera relatorio.pdf a partir dos resultados e evidências

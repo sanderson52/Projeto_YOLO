@@ -1,0 +1,20 @@
+{
+  "train": {
+    "images": 50,
+    "boxes": 1220,
+    "apple_boxes": 212,
+    "banana_boxes": 1008
+  },
+  "val": {
+    "images": 10,
+    "boxes": 126,
+    "apple_boxes": 32,
+    "banana_boxes": 94
+  },
+  "test": {
+    "images": 5,
+    "boxes": 115,
+    "apple_boxes": 4,
+    "banana_boxes": 111
+  }
+}

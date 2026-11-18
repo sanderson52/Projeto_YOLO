@@ -1,0 +1,11 @@
+{
+  "precision": 0.41865441726626007,
+  "recall": 0.20844414893617022,
+  "mAP50": 0.24296927019877548,
+  "mAP50_95": 0.17175572776091014,
+  "epochs_configuradas": 20,
+  "model": "YOLOv8n pretrained",
+  "device": "CPU",
+  "imgsz": 320,
+  "best_weights": "modelo/best.pt"
+}
